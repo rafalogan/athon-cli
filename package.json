@@ -1,6 +1,6 @@
 {
   "name": "@rafaLogan/athon-cli",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -8,5 +8,26 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "MIT",
+  "dependencies": {
+    "yargs": "^17.6.2"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.42.0",
+    "@typescript-eslint/parser": "^5.42.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "^2.7.1",
+    "source-map": "^0.7.4",
+    "ts-node": "^10.9.1",
+    "tsconfig-paths": "^4.1.0",
+    "typescript": "^4.8.4",
+    "vitest": "^0.24.5"
+  },
+	"_moduleAliases": {
+		"@root": "./",
+		"@deep": "src/some/very/deep/directory/or/file",
+		"@my_module": "lib/some-file.js",
+		"something": "src/foo"
+	}
 }
