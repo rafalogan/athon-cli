@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npx vitest",
+    "test:cov": "npx vitest --coverage",
+    "build": "rm -rf ./dist && npx tsc"
   },
   "keywords": [],
   "author": "",
@@ -24,10 +26,10 @@
     "typescript": "^4.8.4",
     "vitest": "^0.24.5"
   },
-	"_moduleAliases": {
-		"@root": "./",
-		"@deep": "src/some/very/deep/directory/or/file",
-		"@my_module": "lib/some-file.js",
-		"something": "src/foo"
-	}
+  "_moduleAliases": {
+    "@root": "./",
+    "@deep": "src/some/very/deep/directory/or/file",
+    "@my_module": "lib/some-file.js",
+    "something": "src/foo"
+  }
 }
