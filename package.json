@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "npx vitest",
-    "test:cov": "npx vitest --coverage",
+    "test": "npx vitest --config vite.config.ts",
+    "test:cov": "npx vitest --coverage --config vite.config.ts",
     "build": "rm -rf ./dist && npx tsc"
   },
   "keywords": [],

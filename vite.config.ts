@@ -3,6 +3,6 @@ import { defineConfig } from 'vitest/config';
 
 export default defineConfig({
 	test: {
-		exclude: ['src/index.ts'],
+		exclude: ['src/index.ts', '**/node_modules/**'],
 	},
 });
