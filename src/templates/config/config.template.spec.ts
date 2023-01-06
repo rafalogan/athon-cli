@@ -1,5 +1,6 @@
 import { expect, describe, test, vitest, beforeEach } from 'vitest';
 
+import mockConfigTestTemplate from '../../../database/test/mocks/mock-config-test.template';
 import mockTemplateConfg from '../../../database/test/mocks/mock-template.confg';
 import { createConfigTemplate } from './config.template';
 
@@ -16,6 +17,7 @@ describe('#TmplateConfig arch', () => {
 		const expected = {
 			fileName: configName,
 			template: mockTemplateConfg,
+			templateTest: mockConfigTestTemplate,
 		};
 
 		const result = createConfigTemplate(componentName);
