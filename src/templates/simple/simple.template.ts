@@ -8,3 +8,6 @@ export const createServiceTemplate = (componentName: string, type = 'ts') =>
 
 export const createControllerTemplate = (componentName: string, type = 'ts') =>
 	makeSimpleTemplate(componentName, 'controller', type);
+
+export const createModelTemplate = (componentName: string, type = 'ts') =>
+	makeSimpleTemplate(componentName, 'model', type);
