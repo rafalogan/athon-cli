@@ -1,1 +1,1 @@
-export * from './entiy.template';
+export * from './entity.template';

@@ -1,3 +1,3 @@
-export default `export class TestEntity {
-	constructor(params: any) {}
+export default `export class Entidade {
+	constructor() {}
 }`;

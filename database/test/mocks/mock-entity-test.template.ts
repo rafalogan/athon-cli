@@ -1,8 +1,8 @@
 export default `import { expect, describe, test, vitest, beforeEach } from 'vitest';
 
-import { TemplateConfig } from './template.config.ts';
+import { Entidade } from './entidade.entity.ts';
 
-describe('#TemplateConfig', () => {
+describe('#Entity Entidade', () => {
 	beforeEach(() => {
 		vitest.restoreAllMocks();
 		vitest.clearAllMocks();

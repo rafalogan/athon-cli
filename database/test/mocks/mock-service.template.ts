@@ -1,3 +1,3 @@
-export default `export class TesteService {
+export default `export class TemplateService {
 	constructor() {}
 }`;
